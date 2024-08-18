@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Risky and Reemar</title>
+    <link rel="stylesheet" type="text/css" href="theme.css"> 
+    <link rel="stylesheet" type="text/css" href="./icons/css/all.min.css"> 
+    <link href="https://fonts.googleapis.com/css?family=Caveat|Quicksand&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="heading">
+        Risky & Reemar
+        <span class="heading-subtext"> Pernikahan ini asli ga yah?</span>
+      </h1>
+    </header>
+    <a data-scroll class="fixed-button" href="#rsvp" id="rsvpButton">Down</a> 
+    <section class="section">
+      <h2 class="sub-heading">Ikhtisar</h2>
+      <p>Yuk, ikutan Pernikahan kami—acara yang dijamin bikin perut kalian kaku dari ketawa! Bayangkan aja, acara ini yang glitter-nya nyala, tarian Macarena yang bikin semua orang goyang, dan makanan yang super lezat (dan mungkin bikin kalian enggak mau pulang). Dari sesi foto yang konyol sampai limusin yang super glamor, acara ini penuh dengan kejadian lucu yang bakal jadi bahan obrolan kalian.
+      </p>
+    </section>
+    <section class="section">
+      <h2 class="sub-heading">Detail Acara</h2>
+      <div class="details">
+        <i class="fas fa-calendar-check"></i>
+        <h3 class="details-heading">Tanggal</h3>
+        <p>Febuari 30, 2045</p>
+        <a title="Add to Calendar" rel="noopener" href="#" target="_blank" rel="nofollow">Tambahkan waktu acara</a>
+      </div>
+      <div class="details">
+        <i class="fas fa-map-marked-alt"></i>
+        <h3 class="details-heading">Lokasi</h3>
+        <p><a rel="noopener" href="https://maps.app.goo.gl/JE3U1xkFgwb71uuy6">Resinda Hotel</a>, Karawang, </p>
+        <img class="resort-image" src="./img/Resinda.jpeg" alt="Resinda" />
+      </div>
+      <div class="details">
+        <i class="fas fa-bullhorn"></i>
+        <h3 class="details-heading">Memeriahkan Acara</h3>
+        <p>Remix Alan Walker x FYP TIKTOK TREND bakal mengguncang perut kalian dengan musik yang bikin semua orang goyang dan tertawa. Bukan cuma itu, ada makanan enak, minuman seru, dan bunga-bunga yang bikin acara ini makin heboh. Siapin diri kalian buat ketawa ngakak dan bersenang-senang sepanjang malam!</p>
+        <p>Bunga mawar mewangi di malam kelam,<br>
+          Hadiah itu bisa ditinggal di rumah.<br>
+          Bawa senyuman dan doi kalian saja,<br>
+          Karena kebahagiaan datang dari tawa dan cinta yang penuh rasa.</p>
+   </div>
+      <div class="details">
+        <i class="fas fa-envelope"></i>
+        <h3 class="details-heading">Pesan Penting Nih!</h3>
+        <p>Hadirin sekalian, hadiah tidak diperlukan. Cukup bawa senyum dan jangan lupa selfie dengan kami!</p>
+        <p>Minimal bawa pasangan, Maksimal bawa keluarga.</p>
+      </div>
+    </section>
+    <script src="./js/smooth-scroll.polyfills.min.js"></script>
+    <script defer>
+      var scroll = new SmoothScroll('a[href*="#"]');
+      var rsvpButton = document.getElementById('rsvpButton')
+      rsvpButton.addEventListener('click',hideButton,false);
+
+      function hideButton() {
+        rsvpButton.style.display = 'none';
+      }   
+    </script>
+  </body>
+</html>
